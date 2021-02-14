@@ -1,0 +1,43 @@
+body{
+    background-color: cornflowerblue;
+}
+.header{
+    color: crimson;
+    text-align: center;
+    margin: auto;
+}
+.description{
+    color: darkmagenta;
+    text-align: center;
+    margin: auto;
+}
+.login-singup{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.buttons{
+    height: 40px;
+    width: 100px;
+    background-color: slateblue;
+    border-radius: 10%;
+    color: teal;
+    font-size: large;
+    font-weight: bolder;
+    border: hidden;
+}
+.buttons:hover{
+    background-color: tomato;
+    color: turquoise;
+}
+form{
+    display: flex;
+    margin-top: 70px;
+    align-content: center;
+    justify-content: center;
+}
+.hider {
+    display: none;
+}
+

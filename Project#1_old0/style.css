@@ -1,0 +1,86 @@
+body {
+    background-color: slateblue;
+}
+body > p {
+    text-align: center;
+    border: solid;
+    border-radius: 50%;
+    border-color: springgreen;
+    background-color: steelblue;
+    font-size: larger;
+    color: tomato;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+}
+.button-box {
+    height: 100px;
+    width: 300px;
+    margin: auto;
+    border-color: gold;
+    border-radius: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: seagreen;
+}
+.buttons {
+    height: 35px;
+    width: 85px;
+    margin: 10px;
+    border-color: darkblue;
+    border-radius: 15%;
+    background-color: navajowhite;
+    color: royalblue;
+    font-size: large;
+    font-weight: bold;
+}
+.buttons:hover {
+    background-color: darkblue;
+    border-color: white;
+}
+.login-box {
+    height: 400px;
+    width: 400px;
+    margin: auto;
+}
+.login-box > form {
+    border: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: seagreen;
+    border-radius: 7%;
+    padding: 30px;
+}
+.singup-box {
+    height: 400px;
+    width: 400px;
+    margin: auto;
+}
+.singup-box > form {
+    border: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 40px;
+    background-color: seagreen;
+    border-radius: 7%;
+    padding: 30px;
+    margin-bottom: 300px;
+}
+.board {
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    border: solid black 1px;
+}
+.forms{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+}

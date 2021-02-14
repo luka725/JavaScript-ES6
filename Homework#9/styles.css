@@ -1,0 +1,96 @@
+body {
+    background-color: black ;
+}
+body > h1, h2 {
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+}
+.button-box {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.button-box > button {
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border-radius: 10%;
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    border: hidden;
+}
+.button-box > button:hover {
+    background-color: black;
+    color: white;
+    border: white 1px solid;
+}
+#login-fields {
+    height: 400px;
+    width: 400px;
+    margin: auto;
+}
+#singup-fields {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    bottom: 410px;
+}
+#login-after {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    bottom: 410px;
+}
+#todo {
+    position: relative;
+    height: 400px;
+    width: 600px;
+    margin: auto;
+    bottom: 410px;
+}
+form {
+    border: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color:darkgray;
+    border-radius: 7%;
+    padding: 30px;
+}
+.button {
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border-radius: 10%;
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    border: hidden;
+}
+.button:hover {
+    background-color: black;
+    color: white;
+    border: white 1px solid;
+}
+.fail {
+    color: red;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+.list-element {
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+.list {
+    position: relative;
+    bottom: 650px;
+}

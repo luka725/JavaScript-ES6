@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body{
+            background-color: silver;
+        }
+        p{
+            color: blueviolet;
+            text-align: center;
+        }
+        .heading{
+            color: purple;
+            text-align: center;
+        }
+        .second-heading{
+            color: red;
+            text-align: center;
+        }
+        .rectangle > li{
+            border: solid black 1px;
+            height: 100px;
+            width: 150px;
+            list-style: none;
+            margin: auto;
+        }
+        .rectangleWrapper{
+          padding: 50px 50px 0px 50px;  
+        }
+    </style>
+</head>
+<body>
+
+</body>
+<script>
+    var heading = document.createElement("H1");
+    var secondHeading = document.createElement("H2");
+    var rectangleList = document.createElement("UL");
+    var arr = ["CF553C", "D63A1A", "461C13", "13462F", "134346", "5B8B8E", "5B698E", "5B8E8C", "5B8E85", "040E0C"];
+    var ar = ["#CF553C", "#D63A1A", "#461C13", "#13462F", "#134346", "#5B8B8E", "#5B698E", "#5B8E8C", "#5B8E85", "#040E0C"];
+    
+        
+   
+
+    heading.innerText = "My First DOM Page";
+    document.title = "My First DOM Page";
+    secondHeading.innerText = "This page is created for First DOM Homework for Pirple";
+    document.body.appendChild(heading);
+    document.body.appendChild(secondHeading);
+    document.body.appendChild(rectangleList);
+    heading.classList.add("heading");
+    secondHeading.classList.add("second-heading");
+    rectangleList.classList.add("rectangle")
+    rectangleList.setAttribute("id", "rectangle-list");
+    
+
+
+    for (n = 0; n < 10; n++){
+            var li = document.createElement("LI");
+            var p = document.createElement("P");
+            p.style.color = ar[n];
+            li.style.backgroundColor = ar[n];
+            document.getElementById("rectangle-list").appendChild(li);
+            document.getElementById("rectangle-list").appendChild(p);
+            p.innerHTML = arr[n];
+            li.setAttribute("id", arr[n]);
+            li.classList.add("rectangleWrapper");
+            console.log("Here are the " + (n + 1) + " rectangle IDs: " + arr[n]);
+    }
+
+</script>
+</html>

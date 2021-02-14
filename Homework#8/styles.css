@@ -1,0 +1,35 @@
+body{
+    background-color: silver;
+}
+.header{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 900;
+    color:slateblue; 
+}
+.secheader{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    color:rgb(13, 9, 43); 
+}
+.table{
+    margin: auto;
+    border-spacing: 4;
+    background-color: cadetblue;
+}
+.table > tbody > tr > th{
+    border: solid 0.5px rgb(15, 1, 143);
+    height: 150px;
+    width: 170px;
+    background-color: silver;
+    font-size: xx-large;
+    color:rgb(15, 1, 143)
+}
+.row{
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    height: 150px;
+    width: 600px;
+}
